@@ -1,0 +1,447 @@
+@import url('https://www.1001fonts.com/poppins-font.html');
+@media (max-width: 480px) {
+    .top-header{
+        font-size: x-small;
+}}
+@media(min-width:768px){
+    .div{
+        width: calc{50px - 10px};
+    }
+}
+Small screens (phones) */
+@media screen and (max-width: 480px) {
+    /* Apply styles for small screens */
+}
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Apply styles for medium screens */
+}
+
+/* Large screens (desktops) */
+@media screen and (min-width: 769px) {
+    /* Apply styles for large screens */
+}
+@import url('https://www.1001fonts.com/poppins-font.html');
+
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins-font', sans-serif;
+}
+
+body {
+    height: 100vh; /* 100% viewport height */
+    width: 100%;
+    padding: 10px;
+}
+
+.top-header {
+    background-color: black;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    color: rgb(1, 1, 21);
+    padding-left: 20px;
+}
+
+.navigation a:hover {
+    color: rgb(134, 134, 248);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Styles for tablets */
+    .logo {
+        margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .navigation a {
+        font-size: 0.9em; /* Decrease font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for phones */
+    .top-header {
+        font-size: x-small;
+    }
+
+    .logo {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .navigation a {
+        font-size: 0.8em; /* Further decrease font size for phones */
+    }
+}
+* {
+    font-family: 'poppins-font', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*start top header*/
+body{
+    height: 100vh;
+    width: 100%;
+    padding:10px;
+}
+.top-header
+{
+    background-color: black;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+padding-top: 10px;
+
+}
+span{
+    text-decoration: underline;
+    color: aqua;
+    font-weight: bold;
+    padding-left: 5px;
+
+}
+/*end top header*/
+/*start Header*/
+header {
+    width: 100%;
+    z-index: 123;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+
+}
+
+.logo {
+    font-weight: 70;
+    font-size: 1.8em;
+    text-transform:capitalize;
+    text-decoration: none;
+    color:black;
+    margin-left: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    color: rgb(1, 1, 21);
+    padding-left: 20px;
+}
+
+.navigation a:hover {
+    color: rgb(134, 134, 248);
+}
+.social-icons{
+    color:black;
+    margin-right: 30px;
+}
+/*end header*/
+.roadmap {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    text-align:start;
+    color:black;
+}
+.roadmap a{
+    justify-content: flex-start;
+}
+.roadmap a:hover{
+    color:rgb(177, 176, 176);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-content: space-between;
+}
+.super{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.big-photo{
+    display: flex;
+    justify-content:center; 
+    align-items:center;
+    background-color: #eeeded;
+    height: 500px;
+}
+.photos{
+    display:flex;
+    flex-direction: column;
+    padding-left:0px;
+    padding-top: 30px;
+    margin-right: 20px;
+    justify-content:space-between;
+
+}
+.photos img{
+    margin-bottom: 10px;
+    background-color: #eeeded;
+}
+
+.a5{
+    background-color: rgb(197, 196, 196);
+    border-radius: 10px;
+    width: 300px;
+    height: 585px;
+    display: inline-block;
+    
+}
+.bus{
+    width: 300px;
+    padding: 10px;
+    margin:10px
+}
+.bus h5{
+    color: black;
+
+}
+.rating-css{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color:#ffe400;
+}
+.rating-css input{
+    display:none;
+    color: yellowgreen;
+}
+.rating-css input + label{
+    text-shadow: 1px 1px 0 #ffe400;
+    cursor: pointer;
+}
+.rating-css input:checked + label~label{
+    color:#838383
+}
+.rating-css label:active{
+    transform:scale(0.9);
+    transition:0.3s ease;
+}
+.bus h6{
+    color : rgb(155, 155, 155);
+}
+.rating-css span{
+    color: rgb(2, 218, 218);
+}
+.star-icons .a1{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    font-size: small;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+label{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.size{
+    padding-top: 20px;
+    display: inline-block;
+    padding-top: 2opx;
+    margin: 10px;
+}
+b{
+    border-radius: 2px;
+    border-width: 10px;
+    height: 2px;
+    background-color: azure;
+}
+button:hover{
+    color:white;
+    background-color: red;
+}
+.count {
+    border: 2px solid grey;
+    border-width: 2px;
+    border-radius: 2px;
+    padding: 10px;
+
+    margin: 10px;
+
+}
+.B{
+    border: 2px solid rgb(183, 5, 5);
+    border-width: 2px;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    margin: 10px; 
+    color:white;
+    background-color: red; 
+}
+.flex{
+    display: inline-flex;
+    width:auto;
+    flex-direction: row;
+}
+.flex button{
+    border: 2px solid rgb(183, 5, 5);
+    border-width: 2px;
+    border-radius: 2px;
+    width:20px;
+    height:40px;
+    padding: 0px;
+    margin: 10px;
+}
+.last {
+    display:inline-block;
+    border-radius: 5px;
+    width: 300px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border:#838383 solid 2px;
+
+}
+.tt ,.ttt{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    margin:5px;
+}
+.last h6{
+    padding:5px;
+    color:black;
+}
+.last i{
+    margin-right: 5px;
+}
+.rated::before{
+    content:"";
+    position:absolute;
+    border: 10px solid red;
+    left:-25px;
+    padding: auto;
+    margin: 20px;
+    height:100%;
+    top: -15px;
+    border-radius: 3px;
+
+}
+
+.rated{
+    padding:30px;
+    margin: 30px;
+    margin-right: 3px;
+    float:left;
+    font-size: bold;
+    font-weight: 900;
+    color :red;
+    position: relative;
+    height: 10px;
+
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.img1 img{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeeded;
+    margin-top: 50px; 
+
+}
+.img2 img{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeeded;
+    margin-top: 50px; 
+}
+.img3 img{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeeded;
+    margin-top: 50px; 
+}
+.img4 img{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeeded;
+    margin-top: 50px; 
+}
+.font{
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: space-between;
+}
+.mon{
+    color:red;
+    padding: auto;
+    margin: 5px;
+}
+.mon1{
+    color:#838383;
+    text-decoration: line-through;
+    padding: auto;
+    margin: 5px;
+}
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 25px;
+    padding-top: 30px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+footer{
+    width:100%;
+    color:grey;
+    background-color: black;
+    text-align: center;
+
+}
